@@ -1,0 +1,9 @@
+.ReadPosts {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.ReadPosts h2 {
+    text-align: center; /* Center the "No Posts Found" message */
+}
